@@ -1,0 +1,768 @@
+главная страница
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>калькулятор</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="glow-header">
+        <h1>Калькулятор</h1>
+        <nav>
+            <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="calculator.html">Калькулятор</a></li>
+            <li><a href="generator.html">Генератор</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <div class="txt">
+                <h2>О калькуляторе</h2>
+                <p>Проект «Калькулятор» — это современный и удобный инструмент для быстрых и точных вычислений прямо в браузере. Сервис позволяет складывать, вычитать, умножать и делить числа без необходимости устанавливать приложения или сложное программное обеспечение.
+
+Наш калькулятор адаптирован для любых устройств: он одинаково удобно работает на компьютерах, планшетах и смартфонах. Каждая кнопка оформлена как отдельный блок, что делает интерфейс понятным и лёгким в использовании даже на маленьких экранах.
+
+Проект создан с упором на простоту и скорость. Здесь нет лишних функций и отвлекающих элементов — только чистые вычисления и мгновенный результат.
+
+Этот проект подойдёт всем, кто хочет быстро решать повседневные задачи: от школьных упражнений до расчётов бюджета. Онлайн-калькулятор всегда доступен, не требует регистрации и абсолютно бесплатен.</p>
+                
+            </div>
+            <div class="sts">
+                <div class="start"><a href="calculator.html" class="str">калькулятор</a></div>
+                <div class="start"><a href="generator.html" class="str">генератор</a></div>
+            </div>
+        </main>
+        <footer class="site-footer" role="contentinfo">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <p class="brand">UwuIgnixarUwu - калькулятор</p>
+                    <p class="copyright">
+                        ©2025 UwuIgnixarUwu. Все права защищены.
+                    </p>
+                </div>
+
+                <div class="footer-right">
+                    <p>Связаться:</p>
+                    <p><a href="mailto:UwuIgnixarUwu@gmail.com">UwuIgnixarUwu@gmail.com</a></p>
+                    <p><a href="tel:+87772172352">+7 777 217-23-52</a></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+вторая страница
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>калькулятор</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="glow-header">
+        <h1>Калькулятор</h1>
+        <nav>
+            <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="calculator.html">Калькулятор</a></li>
+            <li><a href="generator.html">Генератор</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main class="cal">
+            <div class="container1">
+                <div class="container">
+                    <div class="calculator normal" id="normalCalc">
+                        <input type="text" class="display" id="displayNormal" disabled placeholder="0">
+                        <div class="history" id="historyNormal"></div>
+                        <div class="buttons" id="buttonsNormal">
+                            <div class="btn">7</div>
+                            <div class="btn">8</div>
+                            <div class="btn">9</div>
+                            <div class="btn" data-action="/">/</div>
+                            <div class="btn">4</div>
+                            <div class="btn">5</div>
+                            <div class="btn">6</div>
+                            <div class="btn" data-action="*">*</div>
+                            <div class="btn">1</div>
+                            <div class="btn">2</div>
+                            <div class="btn">3</div>
+                            <div class="btn" data-action="-">-</div>
+                            <div class="btn">0</div>
+                            <div class="btn">.</div>
+                            <div class="btn" data-action="=">=</div>
+                            <div class="btn" data-action="+">+</div>
+                            <div class="btn" data-action="clear">C</div>
+                            <div class="btn" data-action="delete">DEL</div>
+                        </div>
+                    </div>
+
+                    <div class="calculator engineer" id="engineerCalc">
+                        <input type="text" class="display" id="displayEngineer" disabled placeholder="0">
+                        <div class="history" id="historyEngineer"></div>
+                        <div class="buttons" id="buttonsEngineer">
+                            <div class="btn" data-action="sin(">sin</div>
+                            <div class="btn" data-action="cos(">cos</div>
+                            <div class="btn" data-action="tan(">tan</div>
+                            <div class="btn" data-action="ln(">ln</div>
+                            <div class="btn" data-action="log(">log</div>
+                            <div class="btn" data-action="sqrt(">√</div>
+                            <div class="btn" data-action="abs(">|x|</div>
+                            <div class="btn" data-action="pi">π</div>
+                            <div class="btn" data-action="^">x^y</div>
+                            <div class="btn" data-action="e">e</div>
+                            <div class="btn">(</div>
+                            <div class="btn">)</div>
+                            <div class="btn">7</div>
+                            <div class="btn">8</div>
+                            <div class="btn">9</div>
+                            <div class="btn" data-action="/">/</div>
+                            <div class="btn">4</div>
+                            <div class="btn">5</div>
+                            <div class="btn">6</div>
+                            <div class="btn" data-action="*">*</div>
+                            <div class="btn">1</div>
+                            <div class="btn">2</div>
+                            <div class="btn">3</div>
+                            <div class="btn" data-action="-">-</div>
+                            <div class="btn">0</div>
+                            <div class="btn">.</div>
+                            <div class="btn" data-action="=">=</div>
+                            <div class="btn" data-action="+">+</div>
+                            <div class="btn" data-action="clear">C</div>
+                            <div class="btn" data-action="delete">DEL</div>
+                        </div>
+                    </div>
+                </div>
+                <button class="switch-btn" id="toEngineer">Инженерный калькулятор</button>
+                <button class="switch-btn" id="toNormal" style="display:none;">Обычный калькулятор</button>
+                <script src="script.js"></script>
+            </div>
+        </main>
+        <footer class="site-footer" role="contentinfo">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <p class="brand">UwuIgnixarUwu - калькулятор</p>
+                    <p class="copyright">
+                        ©2025 UwuIgnixarUwu. Все права защищены.
+                    </p>
+                </div>
+
+                <div class="footer-right">
+                    <p>Связаться:</p>
+                    <p><a href="mailto:UwuIgnixarUwu@gmail.com">UwuIgnixarUwu@gmail.com</a></p>
+                    <p><a href="tel:+87772172352">+7 777 217-23-52</a></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+третья страница
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>генератор числе</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="glow-header">
+        <h1>Генератор чисел</h1>
+        <nav>
+            <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="calculator.html">Калькулятор</a></li>
+            <li><a href="generator.html">Генератор</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main class="random-generator">
+            <div class="container2">
+                <h1>Генератор случайных чисел</h1>
+                <div class="inputs">
+                    <label for="min">Минимум:</label>
+                    <input type="number" id="min" value="1">
+                    <label for="max">Максимум:</label>
+                    <input type="number" id="max" value="100">
+                </div>
+                <button id="generate">Сгенерировать</button>
+                <p id="result"></p>
+            </div>
+        </main>
+        <script src="random.js"></script>
+        <footer class="site-footer" role="contentinfo">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <p class="brand">UwuIgnixarUwu - калькулятор</p>
+                    <p class="copyright">
+                        ©2025 UwuIgnixarUwu. Все права защищены.
+                    </p>
+                </div>
+
+                <div class="footer-right">
+                    <p>Связаться:</p>
+                    <p><a href="mailto:UwuIgnixarUwu@gmail.com">UwuIgnixarUwu@gmail.com</a></p>
+                    <p><a href="tel:+87772172352">+7 777 217-23-52</a></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+джава:
+для второй страницы
+function setupCalculator(calcId, displayId, historyId, isEngineer = false) {
+    const calc = document.getElementById(calcId);
+    const display = document.getElementById(displayId);
+    const history = document.getElementById(historyId);
+    let current = '';
+    let last = '';
+
+    const functions = ['sin(', 'cos(', 'tan(', 'ln(', 'log(', 'sqrt(', 'abs('];
+
+    calc.querySelectorAll('.btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const action = btn.dataset.action;
+
+            if (current === 'Ошибка') current = '';
+
+            if (!action) {
+                current += btn.textContent;
+            } else if (action === 'clear') {
+                current = '';
+                last = '';
+            } else if (action === 'delete') {
+                let removed = false;
+                for (let func of functions) {
+                    if (current.endsWith(func)) {
+                        current = current.slice(0, -func.length);
+                        removed = true;
+                        break;
+                    }
+                }
+                if (!removed) current = current.slice(0, -1);
+            } else if (action === '=') {
+                if (current === '' || !isValidExpression(current)) {
+                    current = 'Ошибка';
+                } else {
+                    try {
+                        let expr = current.replace(/π/g, Math.PI)
+                            .replace(/e/g, Math.E)
+                            .replace(/\^/g, '**')
+                            .replace(/√/g, 'Math.sqrt')
+                            .replace(/ln\(/g, 'Math.log(')
+                            .replace(/log\(/g, 'Math.log10(')
+                            .replace(/sin\(/g, 'Math.sin(')
+                            .replace(/cos\(/g, 'Math.cos(')
+                            .replace(/tan\(/g, 'Math.tan(')
+                            .replace(/abs\(/g, 'Math.abs(');
+                        let result = eval(expr);
+                        last = current + ' = ' + result;
+                        current = result;
+                    } catch (e) {
+                        current = 'Ошибка';
+                    }
+                }
+            } else {
+                const operators = ['+', '-', '*', '/'];
+                if (operators.includes(action) && operators.includes(current.slice(-1))) {
+                    current = current.slice(0, -1);
+                }
+                current += action;
+            }
+
+            display.value = current;
+            history.textContent = last;
+        });
+    });
+}
+
+function isValidExpression(expr) {
+    if (!expr) return false;
+    let stack = [];
+    for (let char of expr) {
+        if (char === '(') stack.push('(');
+        if (char === ')') {
+            if (!stack.length) return false;
+            stack.pop();
+        }
+    }
+    return stack.length === 0;
+}
+
+setupCalculator('normalCalc', 'displayNormal', 'historyNormal');
+setupCalculator('engineerCalc', 'displayEngineer', 'historyEngineer', true);
+
+function flyAndSwitch(fromCalc, toCalc, callback) {
+    const buttons = Array.from(fromCalc.querySelectorAll('.btn'));
+    const rectCalc = fromCalc.getBoundingClientRect();
+    const centerX = rectCalc.left + rectCalc.width / 2;
+    const centerY = rectCalc.top + rectCalc.height / 2;
+    const radius = Math.max(rectCalc.width, rectCalc.height) * 1.2;
+    const duration = 3000;
+
+    // Кружение и разлет кнопок
+    buttons.forEach((btn, index) => {
+        const rect = btn.getBoundingClientRect();
+        const clone = btn.cloneNode(true);
+        clone.style.position = 'fixed';
+        clone.style.left = rect.left + 'px';
+        clone.style.top = rect.top + 'px';
+        clone.style.color = 'red';
+        clone.style.zIndex = 1000;
+        document.body.appendChild(clone);
+
+        const angle = (index / buttons.length) * Math.PI * 2;
+        const start = performance.now();
+
+        function animate(time) {
+            const elapsed = time - start;
+            const t = Math.min(elapsed / duration, 1);
+
+            const spiralRadius = radius * t * 1.5;
+            clone.style.left = centerX + Math.cos(angle + t * 6 * Math.PI) * spiralRadius - clone.offsetWidth / 2 + 'px';
+            clone.style.top = centerY + Math.sin(angle + t * 6 * Math.PI) * spiralRadius - clone.offsetHeight / 2 + 'px';
+            clone.style.transform = `rotate(${t * 1080}deg)`;
+            clone.style.opacity = 1 - t;
+
+            if (t < 1) requestAnimationFrame(animate);
+            else clone.remove();
+        }
+        requestAnimationFrame(animate);
+    });
+
+    // Плавное исчезание и появление калькуляторов
+    let startFade = performance.now();
+    function fadeAnimation(time) {
+        const elapsed = time - startFade;
+        const t = Math.min(elapsed / duration, 1);
+
+        fromCalc.style.opacity = 1 - t;
+        toCalc.style.opacity = t;
+        toCalc.style.pointerEvents = t < 0.5 ? 'none' : 'auto';
+
+        if (t < 1) requestAnimationFrame(fadeAnimation);
+        else {
+            fromCalc.style.pointerEvents = 'none';
+            if (callback) callback();
+        }
+    }
+    requestAnimationFrame(fadeAnimation);
+}
+
+const toEngineer = document.getElementById('toEngineer');
+const toNormal = document.getElementById('toNormal');
+const normalCalc = document.getElementById('normalCalc');
+const engineerCalc = document.getElementById('engineerCalc');
+
+toEngineer.addEventListener('click', () => {
+    flyAndSwitch(normalCalc, engineerCalc);
+    toEngineer.style.display = 'none';
+    toNormal.style.display = 'inline-block';
+});
+
+toNormal.addEventListener('click', () => {
+    flyAndSwitch(engineerCalc, normalCalc);
+    toNormal.style.display = 'none';
+    toEngineer.style.display = 'inline-block';
+});
+
+для третьей страницы
+const generateBtn = document.getElementById('generate');
+const result = document.getElementById('result');
+const minInput = document.getElementById('min');
+const maxInput = document.getElementById('max');
+
+generateBtn.addEventListener('click', () => {
+    let min = parseInt(minInput.value);
+    let max = parseInt(maxInput.value);
+
+    if (isNaN(min) || isNaN(max) || min > max) {
+        result.textContent = "Неверные значения!";
+        result.classList.add('error');
+        return;
+    }
+
+    const randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+    result.textContent = randomNum;
+    result.classList.remove('error');
+
+    // Лёгкая анимация появления числа
+    result.style.transform = 'scale(1.3)';
+    result.style.opacity = '0.6';
+    setTimeout(() => {
+        result.style.transform = 'scale(1)';
+        result.style.opacity = '1';
+    }, 100);
+});
+ксс общийbody {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-image: url("images/backgraund.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  justify-content: center;
+}
+
+.glow-header {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 1000px;
+  z-index: 0;
+  overflow: hidden; 
+}
+
+.glow-header::before {
+  content: "";
+  position: absolute;
+  top: -5px; left: -5px; right: -5px; bottom: -5px;
+  background: linear-gradient(90deg, #00f, #0ff, #00f);
+  border-radius: 15px;
+  filter: blur(10px);
+  z-index: -1; 
+  animation: glow 3s linear infinite;
+  pointer-events: none; 
+  background-size: 200% 100%; 
+}
+
+@keyframes glow {
+  0% { background-position: 0 0; }
+  100% { background-position: 200% 0; }
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.txt {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    height: auto;
+    position: relative;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 0 20px #0ff;
+}
+
+.container1 { width: 100%; max-width: 400px; margin: auto; }
+
+.container {
+  width: 100%;
+  max-width: 400px;  /* оба калькулятора одинаковой ширины */
+  position: relative;
+  height: 550px;      /* немного уменьшена высота */
+}
+
+.calculator {
+  background-color: #000;
+  padding: 15px;      /* чуть меньше отступы */
+  text-align: center;
+  border-radius: 10px;
+  transition: opacity 0.5s;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;       /* чтобы заняло всю контейнерную высоту */
+}
+
+.calculator.engineer {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.display {
+  width: 100%;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #222;
+  color: white;
+}
+
+.history {
+  font-size: 0.9em;
+  color: #888;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+ .buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;          /* чуть меньше, чтобы помещалось */
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  font-size: 1em;    /* чуть меньше шрифт */
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s;
+  height: 50px;      /* чуть меньше высота кнопок */
+}
+
+
+.btn:hover { background-color: #555; }
+
+.switch-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.flying {
+  position: absolute;
+  z-index: 100;
+  pointer-events: none;
+  color: crimson !important;
+  text-shadow: 0 0 10px red, 0 0 20px darkred;
+  font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+  .glow-header {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .glow-header h1 {
+    font-size: 1.5em;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .buttons {
+    grid-auto-rows: 60px;
+    gap: 8px;
+  }
+
+  .btn {
+    font-size: 1.3em;
+  }
+
+  .display {
+    height: 50px;
+    font-size: 1.8em;
+  }
+  .switch-btn {
+    font-size: 1em;
+    margin-top: 350px;
+  }
+  .calculator {
+    width: 90vw;
+    padding: 15px;
+  }
+}
+
+.random-generator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.container2 {
+  background: #111; /* ← теперь плотный фон, не прозрачный */
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 25px #ff4d4d;
+    padding: 40px;
+    width: 400px; /* ← увеличенный размер блока */
+    text-align: center;
+    transition: 0.3s;
+}
+.container2:hover {
+    box-shadow: 0 0 30px #ff4d4d, 0 0 60px #ff4d4d;
+}
+.random-generator h1 {
+    color: #333;
+}
+
+.random-generator .inputs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.random-generator label {
+    font-weight: bold;
+}
+
+.random-generator input {
+    width: 90px;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.random-generator button {
+    background: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s, transform 0.3s;
+    margin-top: 10px;
+}
+
+.random-generator button:hover {
+    background: #e60000;
+    transform: scale(1.05);background: #e60000;
+}
+
+.random-generator #result {
+    margin-top: 25px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff4d4d;
+    min-height: 40px;
+    transition: transform 0.3s, opacity 0.3s;
+
+}
+
+.random-generator #result.error {
+    color: #d60000;
+}
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* ← чтобы при маленьком экране не ломалось */
+}
+
+label {
+    font-weight: bold;
+    color: white;
+}
+
+.site-footer {
+  background: #2b2b2b;
+  color: #e6e6e6;
+  padding: 22px 16px;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.4);
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  position: relative;
+  z-index: 50;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-left, 
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left; /* всё теперь выровнено влево */
+  align-items: flex-start; /* ← ключевая строка! убирает прижатие вправо */
+}
+
+.brand {
+  font-weight: 700;
+  color: #ff6b6b;
+  margin: 0;
+}
+
+.footer-inner a {
+  color: #ffdede;
+  text-decoration: none;
+  transition: color .15s ease;
+}
+
+.footer-inner a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
+.start {
+  background-color: #d60000;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border-radius: 5%;
+  margin: 3px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.start:hover{
+  border-radius: 5%;
+  background-color: #e60000;
+}
+.sts {
+  display: flex;
+  justify-content: center;
+}
+.str {
+  text-decoration: none;
+}
+.cal {
+  margin-bottom: 20px;
+}

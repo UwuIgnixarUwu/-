@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta name="theme-color" content="#000000">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>калькулятор</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="glow-header">
+        <h1>Калькулятор</h1>
+        <nav>
+            <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="calculator.html">Калькулятор</a></li>
+            <li><a href="generator.html">Генератор</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main class="cal">
+            <div class="container1">
+                <div class="container">
+                    <div class="calculator normal" id="normalCalc">
+                        <input type="text" class="display" id="displayNormal" disabled placeholder="0">
+                        <div class="history" id="historyNormal"></div>
+                        <div class="buttons" id="buttonsNormal">
+                            <div class="btn">7</div>
+                            <div class="btn">8</div>
+                            <div class="btn">9</div>
+                            <div class="btn" data-action="/">/</div>
+                            <div class="btn">4</div>
+                            <div class="btn">5</div>
+                            <div class="btn">6</div>
+                            <div class="btn" data-action="*">*</div>
+                            <div class="btn">1</div>
+                            <div class="btn">2</div>
+                            <div class="btn">3</div>
+                            <div class="btn" data-action="-">-</div>
+                            <div class="btn">0</div>
+                            <div class="btn">.</div>
+                            <div class="btn" data-action="=">=</div>
+                            <div class="btn" data-action="+">+</div>
+                            <div class="btn" data-action="clear">C</div>
+                            <div class="btn" data-action="delete">DEL</div>
+                        </div>
+                    </div>
+
+                    <div class="calculator engineer" id="engineerCalc">
+                        <input type="text" class="display" id="displayEngineer" disabled placeholder="0">
+                        <div class="history" id="historyEngineer"></div>
+                        <div class="buttons" id="buttonsEngineer">
+                            <div class="btn" data-action="sin(">sin</div>
+                            <div class="btn" data-action="cos(">cos</div>
+                            <div class="btn" data-action="tan(">tan</div>
+                            <div class="btn" data-action="ln(">ln</div>
+                            <div class="btn" data-action="log(">log</div>
+                            <div class="btn" data-action="sqrt(">√</div>
+                            <div class="btn" data-action="abs(">|x|</div>
+                            <div class="btn" data-action="pi">π</div>
+                            <div class="btn" data-action="^">x^y</div>
+                            <div class="btn" data-action="e">e</div>
+                            <div class="btn">(</div>
+                            <div class="btn">)</div>
+                            <div class="btn">7</div>
+                            <div class="btn">8</div>
+                            <div class="btn">9</div>
+                            <div class="btn" data-action="/">/</div>
+                            <div class="btn">4</div>
+                            <div class="btn">5</div>
+                            <div class="btn">6</div>
+                            <div class="btn" data-action="*">*</div>
+                            <div class="btn">1</div>
+                            <div class="btn">2</div>
+                            <div class="btn">3</div>
+                            <div class="btn" data-action="-">-</div>
+                            <div class="btn">0</div>
+                            <div class="btn">.</div>
+                            <div class="btn" data-action="=">=</div>
+                            <div class="btn" data-action="+">+</div>
+                            <div class="btn" data-action="clear">C</div>
+                            <div class="btn" data-action="delete">DEL</div>
+                        </div>
+                    </div>
+                </div>
+                <button class="switch-btn" id="toEngineer">Инженерный калькулятор</button>
+                <button class="switch-btn" id="toNormal" style="display:none;">Обычный калькулятор</button>
+                <script src="script.js"></script>
+            </div>
+        </main>
+        <footer class="site-footer" role="contentinfo">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <p class="brand">UwuIgnixarUwu - калькулятор</p>
+                    <p class="copyright">
+                        ©2025 UwuIgnixarUwu. Все права защищены.
+                    </p>
+                </div>
+
+                <div class="footer-right">
+                    <p>Связаться:</p>
+                    <p><a href="mailto:UwuIgnixarUwu@gmail.com">UwuIgnixarUwu@gmail.com</a></p>
+                    <p><a href="tel:+87772172352">+7 777 217-23-52</a></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
