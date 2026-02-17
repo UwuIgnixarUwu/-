@@ -41,7 +41,7 @@ export default function ModelPage({ params }: { params: { slug: string } }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <h1 className="text-3xl font-bold">{model.brand} {model.model}</h1>
       <div className="relative h-72 overflow-hidden rounded-2xl border border-white/10">
-        <Image src={model.image} alt={`${model.brand} ${model.model}`} fill className="object-cover" />
+        <Image src={model.image} alt={`${model.brand} ${model.model}`} fill className="object-cover" unoptimized />
       </div>
 
       <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">

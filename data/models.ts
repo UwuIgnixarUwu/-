@@ -22,7 +22,7 @@ export const enduroModels: EnduroModel[] = [
     cons: ['Штатная электрика требует ревизии', 'Средний ресурс цепи OEM'],
     commonIssues: ['Разболтовка крепежа после агрессивной езды', 'Подтекание сальников вилки к 80–100 м/ч'],
     expertVerdict: 'Сильный стартовый вариант для райдера, который хочет ездить эндуро каждые выходные без критичного бюджета.',
-    image: '/placeholders/moto-1.svg',
+    image: 'https://source.unsplash.com/1600x900/?kayo,k6,250,enduro,motorcycle',
     whereToBuy: ['Дилеры Алматы', 'Мотосалоны Астаны', 'Частные поставки с предпродажной подготовкой'],
     rating: 7.8
   },
@@ -47,7 +47,7 @@ export const enduroModels: EnduroModel[] = [
     cons: ['Жестковатая подвеска для легких райдеров', 'Расход выше среднего'],
     commonIssues: ['Требует регулировки клапанов чаще регламента', 'Слабый штатный аккумулятор'],
     expertVerdict: 'Подходит для райдеров, кто растет в темпе и уже катает связки камень-брод-подъем.',
-    image: '/placeholders/moto-2.svg',
+    image: 'https://source.unsplash.com/1600x900/?bse,z7,300,enduro,motorcycle',
     whereToBuy: ['Официальные мультибрендовые салоны', 'Площадки мототехники в Шымкенте'],
     rating: 8.1
   },
@@ -72,7 +72,7 @@ export const enduroModels: EnduroModel[] = [
     cons: ['Дорогие оригинальные расходники', 'Требовательна к качеству топлива'],
     commonIssues: ['Износ корзины сцепления при жестком старте', 'Падение производительности при грязном фильтре'],
     expertVerdict: 'Эталон в классе 250 для тех, кто ценит стабильность на длинной дистанции гонок и трейлов.',
-    image: '/placeholders/moto-3.svg',
+    image: 'https://source.unsplash.com/1600x900/?yamaha,wr250f,enduro,motorcycle',
     whereToBuy: ['Официальный импорт', 'Параллельный ввоз из Японии', 'Проверенные трейд-ин площадки'],
     rating: 9.1
   },
@@ -97,7 +97,7 @@ export const enduroModels: EnduroModel[] = [
     cons: ['Мягкая подвеска для агрессивной езды', 'Тяжелее хард-эндуро'],
     commonIssues: ['Быстрый износ задней покрышки на асфальте', 'Нужен апгрейд защиты картера'],
     expertVerdict: 'Лучшая ступень входа в эндуро для райдеров Казахстана, кому нужен универсал для жизни и выездов.',
-    image: '/placeholders/moto-4.svg',
+    image: 'https://source.unsplash.com/1600x900/?honda,crf300l,enduro,motorcycle',
     whereToBuy: ['Официальные дилеры Honda', 'Серые поставки с осмотром эксперта'],
     rating: 8.7
   },
@@ -122,7 +122,7 @@ export const enduroModels: EnduroModel[] = [
     cons: ['Штатный выхлоп душит верхи', 'Не самый легкий в классе'],
     commonIssues: ['Нужна профилактика троса газа', 'Пластик быстро царапается'],
     expertVerdict: 'Крепкий японский середняк: не требует постоянного тюнинга, едет честно и предсказуемо.',
-    image: '/placeholders/moto-5.svg',
+    image: 'https://source.unsplash.com/1600x900/?kawasaki,klx300r,enduro,motorcycle',
     whereToBuy: ['Импорт под заказ', 'Дилеры с гарантией'],
     rating: 8.5
   },
@@ -147,7 +147,7 @@ export const enduroModels: EnduroModel[] = [
     cons: ['Высокая стоимость владения', 'Требовательность к сервису по моточасам'],
     commonIssues: ['Износ топливного насоса после тяжелых пробегов', 'Периодические ошибки датчика температуры'],
     expertVerdict: 'Выбор для опытных райдеров и спортсменов: быстрый, точный, дорогой, но оправданный в гонке.',
-    image: '/placeholders/moto-6.svg',
+    image: 'https://source.unsplash.com/1600x900/?ktm,350,exc-f,enduro,motorcycle',
     whereToBuy: ['Официальные KTM-партнеры', 'Гоночные команды и трейд-ин'],
     rating: 9.4
   },
@@ -172,7 +172,7 @@ export const enduroModels: EnduroModel[] = [
     cons: ['Сложна для новичка', 'Высокая цена покупки и обслуживания'],
     commonIssues: ['Быстрый износ задних колодок', 'Повышенный нагрев в пробках'],
     expertVerdict: 'Сверхмощный инструмент для пустынных спецучастков и дальних хард-маршрутов.',
-    image: '/placeholders/moto-7.svg',
+    image: 'https://source.unsplash.com/1600x900/?husqvarna,fe,501,enduro,motorcycle',
     whereToBuy: ['Официальные импортеры', 'Премиальные мотоцентры'],
     rating: 9.3
   },
@@ -197,7 +197,7 @@ export const enduroModels: EnduroModel[] = [
     cons: ['Реже встречаются запчасти в регионах', 'Низкая ликвидность относительно KTM'],
     commonIssues: ['Потение прокладки клапанной крышки', 'Быстрый износ слайдера цепи'],
     expertVerdict: 'Умная альтернатива для тех, кто хочет европейский уровень, но без резкого характера 450+.',
-    image: '/placeholders/moto-8.svg',
+    image: 'https://source.unsplash.com/1600x900/?beta,rr,390,enduro,motorcycle',
     whereToBuy: ['Импорт под клиента', 'Бутик-мотоцентры'],
     rating: 8.9
   },
@@ -222,7 +222,7 @@ export const enduroModels: EnduroModel[] = [
     cons: ['Редкая дилерская сеть', 'Часть комплектующих только под заказ'],
     commonIssues: ['Требовательность к настройке инжектора', 'Перегрев при забитом радиаторе'],
     expertVerdict: 'Отличный выбор для техничных трасс: легкий, цепкий и очень точный в руках подготовленного райдера.',
-    image: '/placeholders/moto-9.svg',
+    image: 'https://source.unsplash.com/1600x900/?sherco,sef,300,enduro,motorcycle',
     whereToBuy: ['Импорт через клубы эндуро', 'Партнерские мотосервисы'],
     rating: 8.8
   },
@@ -247,7 +247,7 @@ export const enduroModels: EnduroModel[] = [
     cons: ['Базовые настройки подвески', 'Вибрации на оборотах выше средних'],
     commonIssues: ['Износ подшипников маятника без регулярной смазки', 'Слабая заводская защита рук'],
     expertVerdict: 'Рациональный вход в европейский сегмент: платформа быстрая, а бюджет ниже премиальных одноклассников.',
-    image: '/placeholders/moto-10.svg',
+    image: 'https://source.unsplash.com/1600x900/?gasgas,ec,250f,enduro,motorcycle',
     whereToBuy: ['Официальный дистрибьютор', 'Спортивные частные поставки'],
     rating: 8.6
   }

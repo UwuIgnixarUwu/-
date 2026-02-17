@@ -6,7 +6,7 @@ export function ModelCard({ model }: { model: EnduroModel }) {
   return (
     <article className="card group transition hover:shadow-glow">
       <div className="relative mb-4 h-52 overflow-hidden rounded-xl">
-        <Image src={model.image} alt={`${model.brand} ${model.model}`} fill className="object-cover transition duration-500 group-hover:scale-105" />
+        <Image src={model.image} alt={`${model.brand} ${model.model}`} fill className="object-cover transition duration-500 group-hover:scale-105" unoptimized />
       </div>
       <div className="mb-2 flex items-center justify-between">
         <h3 className="text-lg font-semibold">{model.brand} {model.model}</h3>
